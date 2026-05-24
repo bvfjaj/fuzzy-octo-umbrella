@@ -1,10 +1,39 @@
 local function s1() 
-   loadstring(game:HttpGet("https://api.rubis.app/v2/scrap/IzeJUkcJKclkktbQ/raw"))()
+    loadstring(game:HttpGet("https://api.rubis.app/v2/scrap/IzeJUkcJKclkktbQ/raw"))()
+
 end 
 
+local function s2() 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/bvfjaj/vx-n/refs/heads/main/324281"))()
+end 
 
+local function s3()
+    task.spawn(function()
+    task.wait(1)
+    setclipboard("https://discord.gg/GmT3uvzhVH")
+    WindUI:Notify({
+        Title = "Discord Copied!",
+        Content = "Join our community! Link copied to clipboard.",
+        Icon = "message-circle",
+        Duration = 4
+    })
+end)
+ end
 
+local function s4()
+    task.spawn(function()
+    task.wait(1)
+    setclipboard("https://discord.gg/GmT3uvzhVH")
+    WindUI:Notify({
+        Title = "Discord Copied!",
+        Content = "Join our community! Link copied to clipboard.",
+        Icon = "message-circle",
+        Duration = 4
+    })
+end)
+ end
 
-
--- Run everything
 task.spawn(s1)
+task.spawn(s2) 
+task.spawn(s3)
+task.spawn(s4)
