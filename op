@@ -12,12 +12,7 @@ local function s2()
 end
 
 local function s3() 
-    task.spawn(function()
-        task.wait(0.5)
-        setclipboard("https://discord.gg/GmT3uvzhVH")
-        WindUI:Notify({Title = "Discord Copied!", Content = "Link copied to clipboard.", Icon = "message-circle", Duration = 4})
-    end)
-    task.wait(1)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MoziIOnTop/MoziIHub/refs/heads/main/GrowaGarden"))()
 end 
 
 local function s4() 
